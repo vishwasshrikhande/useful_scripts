@@ -1,5 +1,7 @@
 import os
 import subprocess,platform
+import pandas as pd
+
 hostname = "google.com" #example
 # completedp = subprocess.run("ping -a " + hostname,shell=True, check=True,text=True)
 # print(completedp.args)
