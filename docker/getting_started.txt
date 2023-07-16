@@ -8,8 +8,24 @@ docker run -d -p 80:80 docker/getting-started
 docker/getting-started - the image to use
 
 -- list all containers
+docker ps -a
+
+-- start a particular container
+docker start -ia 2cc82ad79f35
+
+-- list all running containers
 docker container list
 
 -- stop a container
 docker stop CONTAINER crazy_borg 
 
+-- build docker container
+https://blog.gruntwork.io/a-crash-course-on-docker-34073b9e1833
+https://medium.com/gruntwork/the-docker-kubernetes-terraform-and-aws-crash-course-series-dca343ba1274
+
+
+
+-- kubernetes
+
+-- gives all worker nodes
+kubectl get nodes
