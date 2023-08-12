@@ -24,8 +24,15 @@ https://blog.gruntwork.io/a-crash-course-on-docker-34073b9e1833
 https://medium.com/gruntwork/the-docker-kubernetes-terraform-and-aws-crash-course-series-dca343ba1274
 
 
+-- to run previously run container
+docker run --name <container_name> -d -i -t <command> 
+docker exec -it e5945e41bc9b4b14db94ee042146bd50f1a224d996cf23354f6b0cb30a37f84e sh 
 
 -- kubernetes
 
 -- gives all worker nodes
 kubectl get nodes
+
+
+-- instal pip
+sudo apt-get install python3-pip python-dev
